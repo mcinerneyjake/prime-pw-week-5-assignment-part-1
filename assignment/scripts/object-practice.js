@@ -25,10 +25,16 @@ console.log('A little about me:', me); // DONE
   - Console.log fullName
 */
 
+const fullName = `${me.firstName} ${me.lastName}`;
+console.log(fullName); // DONE
+
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
+
+console.log(me.favThreeFoods[0]);
+console.log(me.favThreeFoods[2]); // DONE
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
